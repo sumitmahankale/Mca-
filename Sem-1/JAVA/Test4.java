@@ -29,9 +29,9 @@ public class Test4 {
         String insertSampleDataQuery = """
             INSERT INTO Students (student_id, first_name, last_name, age, major)
             VALUES 
-                (1, 'John', 'Doe', 20, 'C1omputer Science'),
-                (2, 'Jane', 'Smith', 22, 'Mathematics'),
-                (3, 'Alice', 'Johnson', 21, 'Physics')
+                (1, 'sumit', 'mahankale', 20, 'C1omputer Science'),
+                (2, 'vedant', 'shinde', 22, 'Mathematics'),
+                (3, 'pratik', 'choure', 21, 'Physics')
         """;
 
         try (Connection conn = getConnection();
