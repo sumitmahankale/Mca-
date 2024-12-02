@@ -3,7 +3,7 @@ package jdbcSumit;
 import java.sql.*;
 import java.util.Scanner;
 
-public class Test4 {
+public class StudentDetailsJDBC {
 
     
     public static Connection getConnection() throws SQLException {

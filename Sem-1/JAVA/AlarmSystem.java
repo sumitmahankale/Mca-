@@ -22,7 +22,7 @@ class AlarmHandler implements AlarmListener {
 }
 
 
-public class Test extends JFrame {
+public class AlarmSysten extends JFrame {
     private JButton triggerButton;
     private AlarmListener alarmListener;
 
